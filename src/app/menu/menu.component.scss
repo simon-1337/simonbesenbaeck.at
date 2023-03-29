@@ -14,4 +14,15 @@ header {
     img {
         height: 50px;
     }
+
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 32px;
+    
+        &:hover {
+            color: rgba(255,255,255,0.8);
+            font-weight: 500;
+        }
+    }
 }
