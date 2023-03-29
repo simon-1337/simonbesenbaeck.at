@@ -4,6 +4,7 @@ header {
     right: 0;
     position: absolute;
     z-index: 1;
+    height: 80px;
 
     display: flex;
     align-items: center;
@@ -13,6 +14,7 @@ header {
 
     img {
         height: 50px;
+        cursor: pointer;
     }
 
     a {
@@ -21,8 +23,24 @@ header {
         margin-left: 32px;
     
         &:hover {
-            color: rgba(255,255,255,0.8);
+            color: rgba(255, 255, 255, 0.8);
             font-weight: 500;
         }
     }
+}
+
+.darkLinks {
+    a {
+        color: black;
+
+        &:hover{
+            color: rgba(0,0,0,0.8);;
+        }
+    }
+}
+
+
+.headerDark {
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2) ;
 }
